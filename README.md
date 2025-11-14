@@ -286,3 +286,101 @@ Testing the Link
 
 After saving the changes, the "index.html" file is opened in a web browser to test the link.
 Clicking the link successfully navigates to the "location.html" page, demonstrating the linking process.
+
+How to effectively add images to HTML documents using the image tag.
+
+Adding Images to HTML
+
+The image tag (IMG) is used to link to image files, creating a placeholder for images on a webpage.
+You specify the source of the image using the src attribute, for example, "falafel.jpeg" and "salad.jpeg".
+Setting Image Dimensions
+
+You can control the size of images by adding width and height attributes directly in the image tag.
+For instance, setting width to 240 pixels and height to 135 pixels ensures images are displayed at a manageable size.
+Importance of Alternative Text
+
+Including a short description for images using the alt attribute is crucial for accessibility.
+This description helps assistive technologies, like screen readers, provide context to users with visual impairments.
+
+How to create and style HTML tables for organizing information on a webpage.
+
+Creating an HTML Table
+
+Use the <table> tag to create a table structure.
+Add <tr> tags for each row and <td> tags for the data within those rows.
+Adding Table Headers
+
+Introduce headers using <th> tags to label the columns.
+This improves clarity by indicating what each column represents.
+Basic Styling with CSS
+
+Apply simple CSS styles, such as borders, to enhance the table's appearance.
+More advanced styling techniques will be covered later in the course.
+
+The creation and functionality of HTML forms, which are essential for online interactions.
+
+Understanding HTML Forms
+
+HTML forms allow users to input data, such as credit card details during online shopping.
+Forms are defined using the <form> tag, with an optional action attribute specifying where to send the data.
+Form Submission Methods
+
+The method attribute can be set to either GET or POST.
+GET retrieves data from the server, while POST sends data to the server.
+Input Types and Elements
+
+Various input types can be used, including text fields, password fields, checkboxes, and radio buttons.
+Labels can be added using the <label> tag for better user experience, and buttons for submission are created with the submit input type.
+Additional Input Options
+
+Other input types include text areas for multi-line text and dropdown lists created with the <select> tag.
+Understanding these elements helps in creating user-friendly forms for web applications.
+
+The Document Object Model (DOM) and its role in web development.
+
+Understanding the DOM
+
+The DOM is a tree structure representing HTML elements, allowing JavaScript to interact with and modify web pages.
+Each HTML element is represented as an object in the DOM, starting from the root html object, which contains head and body objects.
+Interacting with the DOM using JavaScript
+
+JavaScript can access and update HTML attributes and content, enabling dynamic changes on web pages.
+Examples include updating a digital clock, responding to user actions, and dynamically adding or removing content.
+Common uses of the DOM
+
+JavaScript can animate HTML elements and create interactive experiences, such as fading in content or displaying notifications.
+Many JavaScript libraries, like React, rely on the DOM to enhance user interfaces and improve web application functionality.
+
+The importance of web accessibility for all users, including those with disabilities.
+
+Understanding Web Accessibility
+
+Web accessibility ensures that everyone, regardless of disability, can access and interact with websites.
+It encompasses various disabilities, including visual, auditory, cognitive, and physical impairments.
+Assistive Technologies
+
+Users with disabilities often rely on assistive technologies like screen readers and speech recognition software to navigate the web.
+These tools help make content accessible, such as reading text aloud or converting speech into text.
+Best Practices for Accessibility
+
+Incorporating accessibility from the beginning of a project is crucial; retrofitting can be challenging.
+Using proper HTML structure and elements enhances accessibility, making it easier for assistive technologies to interpret content.
+
+The basics of CSS (Cascading Style Sheets) and its role in web development.
+
+Understanding CSS
+
+CSS is compared to the paint and decorations of a building, while HTML is the structure. CSS controls how HTML elements are displayed in a web browser.
+A CSS rule consists of a selector, which targets specific HTML elements, and a declaration block that contains property-value pairs.
+CSS Declaration Block Structure
+
+Each declaration block is enclosed in curly brackets and includes style declarations that define how elements should appear.
+Properties (like color and background color) are assigned values (like blue or gray) to style the selected HTML elements.
+Selectors and Specificity
+
+Different selectors can be used to style elements, such as type selectors (e.g., h1) and ID selectors (e.g., #header1).
+Specificity determines which CSS rule applies when multiple rules target the same element, with ID selectors taking precedence over type selectors.
+Practical Application
+
+The content includes a demonstration of using Visual Studio Code with a live preview extension to see changes in real-time.
+It encourages learners to practice by creating and linking CSS files to HTML documents, applying various styles to elements.
